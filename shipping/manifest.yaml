@@ -6,6 +6,7 @@ metadata:
 data:
   CART_ENDPOINT: "cart:8080"
   DB_HOST: mysql
+  db.driver: "com.mysql.cj.jdbc.Driver"
 ---
 apiVersion: apps/v1
 kind: Deployment
